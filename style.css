@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  box-sizing:border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 100px;
+  width: 100%;
+  background-color: lime;
+  position:fixed;
+  top:0;
+  z-index:1;
+  margin:0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Roboto', sans Serif;
+  color:black;
+  font-weight:900;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:100px;
+}
+
+header {
+  height: 400px;
+
+  background: url("https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTl8fHBlb3BsZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60")
+    no-repeat no-repeat;
+  background-size: cover;
+  font-weight: 700;
+  position: relative;
+  z-index:-1;
+}
+
+.span1 {
+  position: absolute;
+  bottom: 45%;
+  left: 5%;
+  font-size: 20px;
+  color: white;
+}
+
+.span2 {
+  height:100px;
+  width:200px;
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  font-family:cursive;
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  opacity: 0.6;
+  z-index:-1;
+  padding:10px;
+}
+
+p,
+ul {
+  font-family: 'Roboto', sans Serif;
+  font-size: 18px;
+  color: black;
+  line-height: 1.5;
+}
+
+div {
+  padding: 10px 30px;
+}
+
+li {
+  margin: 0px 30px;
+}
+
+blockquote {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Georgia';
+  font-style:italic;
+  font-size: 40px;
+  font-weight: 900;
+  background: black;
+  color: lime;
+  padding: 0;
+  padding-left: 10px;
+  position: relative;
+  z-index:-1;
+}
+
+blockquote::before {
+  position: absolute;
+  top: 40px;
+  left: 5px;
+  content: "“";
+  font-size: 50px;
+  font-weight: 900;
+}
+
+
+h1 {
+  letter-spacing: 3px;
+  color: orange;
+  margin: 5px 0;
+  font-family:'Verdana';
+  font-size:20px;
+  margin-bottom:20px;
+}
+
+h2 {
+  color: black;
+  margin: 5px 0;
+  font-family:'Georgia';
+  font-size:16px;
+  margin-bottom:10px;
+}
+
+h3 {
+  font-family: cursive;
+  font-size: 14px;
+  font-style: italic;
+  color: black;
+  margin: 5px 0;
+}
+
+section > div:first-child {
+  flex: 1 30%;
+}
+
+section > div:nth-child(2) {
+  flex: 1 70%;
+}
+
+section > div:nth-child(3) {
+  flex: 1 30%;
+}
+
+section > div:nth-child(4) {
+  flex: 1 70%;
+}
+
+section > div:nth-child(5) {
+  flex: 1 30%;
+}
+
+section > div:nth-child(6) {
+  flex: 1 70%;
+}
+
+section > div:nth-child(7) {
+  flex: 1 30%;
+}
+
+section > div:nth-child(8) {
+  flex: 1 70%;
+}
+
+a:hover {
+  color: white;
+}
+
+/*a:visited {
+  color: grey;
+}
+
+a:active {
+  color: orange;
+}*/
