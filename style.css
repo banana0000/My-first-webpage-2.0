@@ -20,7 +20,7 @@ nav {
   gap: 100px;
   height: 100px;
   width: 100%;
-  background-color: lime;
+  background-color:black;
   position:fixed;
   top:0;
   z-index:1;
@@ -31,7 +31,7 @@ a {
   text-decoration: none;
   font-size: 25px;
   font-family: 'Roboto', sans Serif;
-  color:black;
+  color:lime;
   font-weight:900;
 }
 
@@ -100,8 +100,8 @@ blockquote {
   font-style:italic;
   font-size: 40px;
   font-weight: 900;
-  background: black;
-  color: lime;
+  background:lime;
+  color:black;
   padding: 0;
   padding-left: 10px;
   position: relative;
